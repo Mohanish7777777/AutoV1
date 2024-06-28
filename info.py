@@ -21,9 +21,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7362683101:AAHGoHyE-qp0PFixFEBhunWUJGcMiS2
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://yohanrockstar.rockstar17.workers.dev/0:/file_292.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/aa1faf8dafa22f4a9ce48.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/UHD_Tamil")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/MohanishX")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -43,22 +43,22 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://stthamizhan:stthamizhan@cluster0.pece5vb.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "stthamizhan")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sorago5056:Jobijobi123@cluster0.8cvzfy5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MohanishX")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kingurl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7ae3c13f836145f7f5ada9c8b651c17d46448b96')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ST_movies_seaech')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+9wxEvENMP61hYzE8')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/st_movie_upadate/1958')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+T26JZ6HVspYxNTJl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MohanishX')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MohanishX')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Member')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001726568241'))
