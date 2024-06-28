@@ -12,10 +12,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '17777279'))
-API_HASH = environ.get('API_HASH', 'f2cb943ac7421015761dd8f0615a31d4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6147055588:AAEmxs5eoIs4QzQAeCbdtHWfwSBdllN98E4")
+SESSION = environ.get('SESSION', 'MohanishX')
+API_ID = int(environ.get('API_ID', '20244111'))
+API_HASH = environ.get('API_HASH', 'b76d27da2a4220fe109fe9ef0e866530')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7362683101:AAHGoHyE-qp0PFixFEBhunWUJGcMiS20QpU")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,11 +27,11 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/UHD_Tamil")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5076254266').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002121178765').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5076254266').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5572938538').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001968657032').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5572938538').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5076254266').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5572938538').split()]
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
